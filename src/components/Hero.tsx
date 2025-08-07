@@ -54,13 +54,14 @@ const Hero: React.FC = () => {
                 View My Work
               </button>
               <a
-              href="/Anıl Cem Elemir CV.pdf"
-              download="AnılCemElemirCV.pdf"
-              className="group border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 font-medium flex items-center justify-center hover:scale-105 hover:shadow-lg"
+                href={`${import.meta.env.BASE_URL}anil-cem-elemir-cv.pdf`}
+                download="AnilCemElemirCV.pdf"
+                className="group border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 font-medium flex items-center justify-center hover:scale-105 hover:shadow-lg"
               >
-              <Download className="h-5 w-5 mr-2 group-hover:scale-110 transition-transform" />
-              Download CV
+                <Download className="h-5 w-5 mr-2 group-hover:scale-110 transition-transform" />
+                Download CV
               </a>
+
             </div>
           </div>
           
